@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+:root {
+    --primary-color: rgba(0, 191,122, 1);
+    --error-color:rgba(255, 84, 64, 1);
+    --gray-color: rgba(138, 146,166, 1);
+    --dark-gray-color:rgba(64, 64, 64, 1);
+    --default-color: rgba(35, 45, 66, 1);
+}
+
+.primary-button {
+    border-radius: 6px;
+    padding : 8px 24px;
+    background-color: var(--primary-color);
+    font-size : 16px;
+    font-weight: 400;
+    line-height: 175%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.primary-button:hover{
+    opacity:0.95;
+    cursor: pointer;
+}
+.full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.link {
+    align-self: center;
+
+    font-size : 16px;
+    font-weight: 400;
+    line-height: 175%;
+
+    text-align: center;
+    color : rgba(113, 113, 113, 1);
+}
+
+.link:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.divider{
+    width : 100%;
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
